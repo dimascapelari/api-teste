@@ -8,6 +8,7 @@
         <td><b>Name:</b> {{ product.name }}</td>
         <td><b>Brand:</b> {{ product.brand }}</td>
         <td><b>Description:</b> {{ product.description }}</td>
+        <td>{{ product.photo }}</td>
       </tr>
     </table>
   </div>
@@ -24,12 +25,13 @@ export default defineComponent({
   data() {
     return {
       products: [],
+      photo: "product.photo",
     };
   },
 
   mounted() {
     Product.listar().then((resposta) => {
-      // console.log(resposta.data.products);
+      console.log(resposta.data.products);
       this.products = resposta.data.products;
     });
   },
