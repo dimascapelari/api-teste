@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Home</h1>
+    <h1>HomeView</h1>
     <p>Nome: {{ produto.nome }}</p>
     <p>Quantidade: {{ produto.quantidade }}</p>
     <p>Valor: {{ produto.valor }}</p>
