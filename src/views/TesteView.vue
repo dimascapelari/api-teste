@@ -8,6 +8,7 @@
   <p><b>title:</b> {{ dados.title }}</p>
   <p><b>body:</b> {{ dados.body }}</p>
   <hr />
+  <hr />
 
   <ul v-for="dado in dados" :key="dado.id">
     <li>{{ dado }}</li>
