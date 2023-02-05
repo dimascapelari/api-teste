@@ -9,7 +9,7 @@ export default createStore({
         sobrenome: "Capelari",
       },
     ],
-    baseURL: "https://mks-challenge-api-frontend.herokuapp.com/api/v1/",
+   // baseURL: "https://mks-challenge-api-frontend.herokuapp.com/api/v1/",
   },
   getters: {},
   mutations: {},
